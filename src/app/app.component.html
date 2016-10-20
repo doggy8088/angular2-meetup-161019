@@ -1,3 +1,11 @@
 <h1>
   {{title}}
 </h1>
+<hr>
+
+<ul>
+  <li><a [routerLink]="['/home']" >Home</a></li>
+  <li><a [routerLink]="['/second']">Second</a></li>
+</ul>
+
+<router-outlet></router-outlet>
